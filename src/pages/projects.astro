@@ -5,47 +5,42 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Proyectos curso</div>
   </div>
 
+  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 1"
+    title="Proyecto curso"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Código del Proyecto final de curso de maquetación y páginas web (No esta acabaado)."
+    url="https://github.com/Guiller1312/ProyectoFinal"
+  />
+ 
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Ejercicios Clase</div>
+  </div>
+ <HorizontalCard
+    title="Ejercicios clase JS"
+    img="/post_img.webp"
+    desc="Ejercicios hechos en clase de JS, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
+    url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/EJERCICIOS"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="Prácticas curso JS"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Ptrácticas mandadas en clase de JS, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
+    url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/JS"
   />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
   <HorizontalCard
-    title="Demo Project 3"
+    title="Proyectos curso HTML"
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/HTML_clase_ejemplos"
     badge="FOSS"
   />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+  
 </BaseLayout>
