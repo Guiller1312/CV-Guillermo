@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import type { ServicioSchema } from "src/content/config.ts";
+import ServicioLayout from "src/layouts/ServicioLayout.astro";
+import createSlug from "src/lib/createSlug"
+
+export async function getStaticPaths() {
+  const postEntries = await getCollection("servicios");
+  return postEntries.map((entry) => ({
+    params: { slug: createSlug(entry.data.title, entry.slug) },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"blog">;
+}
+
+const { entry } = Astro.props;
+const post: ServicioSchema = entry.data;
+const { Content } = await entry.render();
+---
+
+<ServicioLayout
+  title={post.title}
+  description={post.description}
+  heroImage={post.heroImage}
+  badge={post.badge}
+  tags={post.tags}
+>
+  <Content />
+</ServicioLayout>

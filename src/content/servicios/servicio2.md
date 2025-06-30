@@ -1,5 +1,5 @@
 ---
-title: "Programdor Front end"
+title: "Programdor Back end"
 description: "Proyecto sobre jugadores de baloncesto de la liga americana"
 pubDate: "Dec 10 2023"
 heroImage: "/Anotadores.png"

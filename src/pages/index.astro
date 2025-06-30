@@ -31,14 +31,7 @@ const last_posts = posts.slice(0, 3);
   </div>
  <HorizontalCard
     title="Ejercicios clase JS"
-    img="/post_img.webp"
-    desc="Ejercicios hechos en clase de JS, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
-    url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/EJERCICIOS"
-    badge="NEW"
-  />
- <HorizontalCard
-    title="Ejercicios clase JS"
-    img="/post_img.webp"
+    img="/JS-imagen.webp"
     desc="Ejercicios hechos en clase de JS, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
     url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/EJERCICIOS"
     badge="NEW"
@@ -46,14 +39,14 @@ const last_posts = posts.slice(0, 3);
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Prácticas curso JS"
-    img="/post_img.webp"
+    img="/JS-imagen.webp"
     desc="Prácticas mandadas en clase de JS, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
     url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/JS"
   />
 
   <HorizontalCard
     title="Proyectos curso HTML"
-    img="/post_img.webp"
+    img="/html-css-js.webp"
     desc="Ejercicios mandado en clase de HTML, con el objetivo de ampliar nuestros conocimientos y habilidades en programación."
     url="https://github.com/Guiller1312/Maquetacion_paginas_web/tree/main/Clase/HTML_clase_ejemplos"
     badge="FOSS"
@@ -70,7 +63,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/servicios/" + createSlug(post.data.title, post.slug)}
+          url={"/blog/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
         />
