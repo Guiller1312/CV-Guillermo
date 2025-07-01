@@ -5,4 +5,4 @@ pubDate: "Dec 10 2023"
 heroImage: "/html-css-js.webp"
 tags: ["Angular", "Polymer", "Lit-element", "Cells", "HTML", "CSS", "JS"]
 ---
-Proyecto que desarrolle al final del bootcamp con compañeros sobre estadisticas generales de todos los jugadores que han pasado por la liga americana de baloncesto
+Tengo experiencia con multiples frameworks debido ya sea a los estudios o a la experiencia adquirida mediante prácticas o trabajo.
