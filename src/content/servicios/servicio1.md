@@ -1,6 +1,6 @@
 ---
 title: "Desarrollador Front end"
-description: "Proyecto sobre jugadores de baloncesto de la liga americana"
+description: "Acerca de mis servicios como desarrollador Front end"
 pubDate: "Dec 10 2023"
 heroImage: "/html-css-js.webp"
 tags: ["Angular", "Polymer", "Lit-element", "Cells", "HTML", "CSS", "JS"]
