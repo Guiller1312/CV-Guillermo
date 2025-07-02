@@ -6,7 +6,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <div
         class="not-content mx-auto my-3 rounded-3xl border border-gray-200 bg-gray-100 p-6 text-gray-900 md:p-10"
     >
-        <h3 class="w-full text-center text-2xl font-medium">Contact Me</h3>
+        <h3 class="w-full text-center text-2xl font-medium">Contáctame</h3>
         <form
             action="https://usebasin.com/f/dd1cd7335dfc"
             method="POST"
@@ -44,7 +44,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
                 <input
                     type="email"
                     class="form__input"
-                    name="correo"
+                    name="email"
                     id="contact-email"
                     inputmode="email"
                     placeholder="Pon tu correo electrónico"
@@ -151,7 +151,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
                 if (xhr.status === 200) {
                     // The request was successful
-                    console.log("Form submitted successfully.");
+                    console.log("Formulario enviado exitosamente.");
                     // reset form on successful email send
                     form?.reset();
 
